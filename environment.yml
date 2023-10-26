@@ -1,0 +1,13 @@
+name: sutron-link
+channels:
+  - conda-forge
+  - defaults
+  - pyviz
+dependencies:
+  - python
+  - pyserial
+  - parse
+  - xarray
+  - pip
+  - pip:
+    - pywaggle
